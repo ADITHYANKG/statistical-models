@@ -1,0 +1,31 @@
+{
+  "warning": "SYNTHETIC DEMO MODEL \u2014 NOT A VALIDATED REAL-WORLD JOHNS ORDER PROBABILITY",
+  "real_sales_start": "2025-01-06",
+  "real_sales_end": "2026-08-07",
+  "synthetic_start": "2016-08-26",
+  "synthetic_end": "2026-08-25",
+  "location": {
+    "name": "Kozhikode",
+    "admin1": "Kerala",
+    "country": "India",
+    "latitude": 11.24802,
+    "longitude": 75.7804,
+    "timezone": "Asia/Kolkata"
+  },
+  "horizons_days": [
+    7,
+    14,
+    21
+  ],
+  "random_state": 42,
+  "simulation": {
+    "base_trigger_probability": 0.005,
+    "trigger_pressure_start": 0.8,
+    "max_trigger_probability": 0.55,
+    "event_cooldown_days": 12,
+    "event_delay_days": [
+      3,
+      10
+    ]
+  }
+}
